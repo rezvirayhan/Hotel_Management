@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Home/Home/Home';
 import About from './Home/About/About';
 import TMentor from "./Home/TMentor/TMentor";
+import Footer from "./Home/Footer/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path="/about" element={<About></About>} />
       <Route path="/tmmentors" element={<TMentor></TMentor>}></Route>
       </Routes>
+      <Footer></Footer>
 
     </div>
   );
