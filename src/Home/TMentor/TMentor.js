@@ -1,8 +1,13 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import {useNavigate} from'react-router-dom'
 const TMentor = ({tmentor}) => {
-  const {name, descripition,img}= tmentor;
+  const {id,name, descripition,img}= tmentor;
+  const navigate = useNavigate();
+  const navigatToTMentorDetail = id =>{
+    navigate(`/tmentor/${id}`);
+  }
   return (
     <div>
 <Card style={{ width: '18rem' }}>
@@ -12,7 +17,7 @@ const TMentor = ({tmentor}) => {
         <Card.Text>
          {descripition}
         </Card.Text>
-        <Button variant="primary">Let's Go</Button>
+        <Button onClick={() =>navigatToTMentorDetail(id)} variant="primary">Let's Go {name}</Button>
       </Card.Body>
     </Card>
     
