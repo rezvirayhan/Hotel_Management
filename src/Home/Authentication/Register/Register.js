@@ -1,11 +1,16 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import { Link } from "react-router-dom";
 const Register = () => {
+    const hendleRegister = (event) => {
+        event.preventDefault();
+    
+      };
   return (
     <div  className="container w-50 mx-auto">
       <h1 className="text-primary mt-2 mb-2">Please Register: </h1>
-      <Form>
+      <Form onSubmit={hendleRegister}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
           <Form.Control type="email" placeholder="Your Name" />
@@ -28,6 +33,9 @@ const Register = () => {
           Register
         </Button>
       </Form>
+      <p className="mt-2">
+        I Have Registered & Went To Login Go To <Link className="text-decoration-none" to="/login">Login. </Link>
+      </p>
     </div>
   );
 };
