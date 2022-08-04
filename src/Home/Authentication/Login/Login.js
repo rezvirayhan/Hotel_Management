@@ -4,6 +4,7 @@ import Form from "react-bootstrap/Form";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import auth from "../../../firebase.init";
+import SocialLogin from "../SocialLogin/SocialLogin";
 
 const Login = () => {
   const emailRef = useRef("");
@@ -53,6 +54,7 @@ const Login = () => {
         </Link>
         Then Login.
       </p>
+      <SocialLogin></SocialLogin>
     </div>
   );
 };
