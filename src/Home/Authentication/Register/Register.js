@@ -2,18 +2,25 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { Link } from "react-router-dom";
+import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import auth from "../../../firebase.init";
+
+
 const Register = () => {
-    const hendleRegister = (event) => {
-        event.preventDefault();
+
+
+
+  const handleRegisterSubmite = (event) => {
+    event.preventDefault();
     
       };
   return (
     <div  className="container w-50 mx-auto">
       <h1 className="text-primary mt-2 mb-2">Please Register: </h1>
-      <Form onSubmit={hendleRegister}>
+      <Form onSubmit={handleRegisterSubmite}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
-          <Form.Control type="email" placeholder="Your Name" />
+          <Form.Control type="text" placeholder="Your Name" />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
