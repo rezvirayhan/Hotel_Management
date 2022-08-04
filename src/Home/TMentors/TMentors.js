@@ -11,7 +11,7 @@ const TMentors = () => {
      .then(data=> setTmmentors(data));
     },[])
      return (
-         <div className='container'> 
+         <div id='mentors' className='container'> 
          <h1 className='text-center text-primary p-3 mt-2 mb-3'>Our Tourist Mentors</h1>
           <div id='tmentors'>
           {
