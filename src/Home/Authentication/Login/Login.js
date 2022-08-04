@@ -1,18 +1,27 @@
 import React, { useRef } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
+import auth from "../../../firebase.init";
 
 const Login = () => {
   const emailRef = useRef("");
   const passReff = useRef("");
 
+  const [signInWithEmailAndPassword, user, loading, error] =
+    useSignInWithEmailAndPassword(auth);
+
+  const navigeat = useNavigate();
+
+  if (user) {
+    navigeat("/home");
+  }
   const handleSubmite = (event) => {
     event.preventDefault();
     const email = emailRef.current.value;
     const pass = passReff.current.value;
-
-    console.log(email, pass);
+    signInWithEmailAndPassword(email, pass);
   };
 
   return (
@@ -36,7 +45,11 @@ const Login = () => {
         </Button>
       </Form>
       <p className="mt-2">
-        Are You New User? So Please <Link className="text-decoration-none" to="/register">Registration </Link>Then Login.
+        Are You New User? So Please{" "}
+        <Link className="text-decoration-none" to="/register">
+          Registration{" "}
+        </Link>
+        Then Login.
       </p>
     </div>
   );

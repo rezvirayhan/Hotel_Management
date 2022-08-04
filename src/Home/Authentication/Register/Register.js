@@ -2,11 +2,25 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { Link, useNavigate } from "react-router-dom";
+import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import auth from "../../../firebase.init";
 
 
 const Register = () => {
 
+
+  const [
+    createUserWithEmailAndPassword,
+    user,
+    loading,
+    error,
+  ] = useCreateUserWithEmailAndPassword(auth);
+
   const navigeat = useNavigate();
+
+  if(user){
+    navigeat('/login');
+  }
 
 
   const handleRegister = event =>{
@@ -14,8 +28,10 @@ const Register = () => {
     const name = event.target.name.value;
     const email = event.target.email.value;
     const pass = event.target.password.value;
+    createUserWithEmailAndPassword(email, pass)
 
     console.log(name, email, pass);
+
 
   }
 
