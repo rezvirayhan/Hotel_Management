@@ -2,43 +2,38 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { Link, useNavigate } from "react-router-dom";
-import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useCreateUserWithEmailAndPassword, useUpdateProfile } from "react-firebase-hooks/auth";
 import auth from "../../../firebase.init";
 import SocialLogin from "../SocialLogin/SocialLogin";
 
-
 const Register = () => {
+  const [createUserWithEmailAndPassword, user] =
+    useCreateUserWithEmailAndPassword(auth, {sendEmailVerification:true});
 
 
-  const [
-    createUserWithEmailAndPassword,
-    user,
-    loading,
-    error,
-  ] = useCreateUserWithEmailAndPassword(auth);
+    const [updateProfile, updating, updateError] = useUpdateProfile(auth);
+
+
 
   const navigeat = useNavigate();
 
-  if(user){
-    navigeat('/login');
-  }
+ 
 
-
-  const handleRegister = event =>{
+  const handleRegister = async (event) => {
     event.preventDefault();
     const name = event.target.name.value;
     const email = event.target.email.value;
     const pass = event.target.password.value;
-    createUserWithEmailAndPassword(email, pass)
+    await createUserWithEmailAndPassword(email, pass);
+    await updateProfile({ displayName: name });
+    navigeat("/login");
+
 
     console.log(name, email, pass);
+  };
 
-
-  }
-
-      
   return (
-    <div  className="container w-50 mx-auto">
+    <div className="container w-50 mx-auto">
       <h1 className="text-primary mt-2 mb-2">Please Register: </h1>
       <Form onSubmit={handleRegister}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -54,7 +49,11 @@ const Register = () => {
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicPassword">
           <Form.Label>Password</Form.Label>
-          <Form.Control type="password" name="password" placeholder="Password" />
+          <Form.Control
+            type="password"
+            name="password"
+            placeholder="Password"
+          />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicCheckbox">
           <Form.Check type="checkbox" label="Check me out" />
@@ -64,7 +63,10 @@ const Register = () => {
         </Button>
       </Form>
       <p className="mt-2">
-        I Have Registered & Went To Login Go To <Link className="text-decoration-none" to="/login">Login. </Link>
+        I Have Registered & Went To Login Go To{" "}
+        <Link className="text-decoration-none" to="/login">
+          Login.{" "}
+        </Link>
       </p>
       <SocialLogin></SocialLogin>
     </div>
