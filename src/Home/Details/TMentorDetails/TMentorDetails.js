@@ -1,23 +1,25 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel';
 
-import img1 from '../../../images/TMDitles/img_1.jpg'
-import img2 from '../../../images/TMDitles/img_2.jpg'
-import img3 from '../../../images/TMDitles/img_3.jpg'
-import img4 from '../../../images/TMDitles/img_4.jpg'
-import img5 from '../../../images/TMDitles/img_5.jpg'
-import img6 from '../../../images/TMDitles/img_6.jpg'
+import img1 from '../../../images/TMDitles/img_1.jpg';
+import img2 from '../../../images/TMDitles/img_2.jpg';
+import img3 from '../../../images/TMDitles/img_3.jpg';
+import img4 from '../../../images/TMDitles/img_4.jpg';
+import img5 from '../../../images/TMDitles/img_5.jpg';
+import img6 from '../../../images/TMDitles/img_6.jpg';
 
 const TMentorDetails = () => {
   const { tmentordetails } = useParams();
   
-
+console.log(tmentordetails)
   
+
+
+const [tmmentors, setTmmentors] = useState([])
   return (
     <div>
      <h1>ff{tmentordetails}</h1>
-     
      <div className="container">
       <h2 className="mb-1 text-center text-danger">Our Special Chef</h2>
       <div className="row">
