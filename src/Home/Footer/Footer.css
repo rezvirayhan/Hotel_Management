@@ -5,3 +5,6 @@
 #dev_footer a{
     color: white;
 }
+.icon_img img{
+    cursor: pointer;
+}

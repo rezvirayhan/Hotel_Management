@@ -31,7 +31,7 @@ const Footer = () => {
                     <h5>Connect With Us</h5>
                     <small>SOCIAL MEDIA CHANNELS</small>
                   </div>
-                  <div className="mr-3 mt-3 ">
+                  <div className="mr-3 mt-3 icon_img">
                     <img
                       className="mr-2"
                       style={{ width: "10%" }}
