@@ -23,7 +23,7 @@ function App() {
           element={<TMentorDetails></TMentorDetails>}
         ></Route>
         <Route path="/login" element={<Login></Login>}></Route>
-        <Route path="register" element={<Register></Register>}></Route>
+        <Route path="/register" element={<Register></Register>}></Route>
         <Route
           path="/chackout"
           element={
