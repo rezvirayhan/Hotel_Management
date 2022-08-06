@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { useNavigate } from "react-router-dom";
 const TMentor = ({ tmentor }) => {
-  const { id, name, descripition, img } = tmentor;
+  const { _id, name, descripition, img } = tmentor;
   const navigate = useNavigate();
   const navigatToTMentorDetail = (id) => {
     navigate(`/tmentor/${id}`);
@@ -15,7 +15,7 @@ const TMentor = ({ tmentor }) => {
         <Card.Body>
           <Card.Title>{name}</Card.Title>
           <Card.Text>{descripition}</Card.Text>
-          <Button onClick={() => navigatToTMentorDetail(id)} variant="primary">
+          <Button onClick={() => navigatToTMentorDetail(_id)} variant="primary">
             Let's Go {name}
           </Button>
         </Card.Body>

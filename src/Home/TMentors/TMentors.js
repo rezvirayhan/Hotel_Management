@@ -6,7 +6,7 @@ const TMentors = () => {
     const [tmmentors, setTmmentors] = useState([])
 
     useEffect(()=>{
-     fetch('tmentor.json')
+     fetch('http://localhost:5000/tmentor')
      .then(res=> res.json())
      .then(data=> setTmmentors(data));
     },[])
@@ -16,7 +16,7 @@ const TMentors = () => {
           <div id='tmentors'>
           {
             tmmentors.map(tmentor =><TMentor
-            key={tmentor.id}
+            key={tmentor._id}
             tmentor={tmentor}
             >
             </TMentor>)

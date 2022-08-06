@@ -1,4 +1,5 @@
 // import React, { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
 import img1 from "../../../images/TMDitles/img_1.jpg";
@@ -11,12 +12,22 @@ import img6 from "../../../images/TMDitles/img_6.jpg";
 const TMentorDetails = () => {
   const { tmentordetails } = useParams();
 
-  console.log(tmentordetails);
+  const [tmentorDetilas, setTmentorDetilas] = useState({});
+
+
+  useEffect(()=>{
+    const url =`http://localhost:5000/tmentor${tmentordetails}`;
+
+    fetch(url)
+    .then(res => res.json())
+    .then(data => setTmentorDetilas(data))
+  },[])
+
 
   // const [tmmentors, setTmmentors] = useState([])
   return (
     <div>
-      <h1>ff{tmentordetails}</h1>
+      <h2>Your Are Abot To Book {tmentordetails}</h2>
       <div className="container">
         <h2 className="mb-1 text-center text-danger">Our Special Chef</h2>
         <div className="row">
