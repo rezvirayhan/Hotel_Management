@@ -7,7 +7,7 @@ import auth from "../../../firebase.init";
 import SocialLogin from "../SocialLogin/SocialLogin";
 
 const Register = () => {
-  const [createUserWithEmailAndPassword, user] =
+  const [createUserWithEmailAndPassword,] =
     useCreateUserWithEmailAndPassword(auth, {sendEmailVerification:true});
 
 

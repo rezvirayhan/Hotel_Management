@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import auth from "../../../firebase.init";
 import google from "../../../images/icon/google.png";
 const SocialLogin = () => {
-  const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+  const [signInWithGoogle, user, error] = useSignInWithGoogle(auth);
 
   const navigate = useNavigate();
   let errorElemtnt;
