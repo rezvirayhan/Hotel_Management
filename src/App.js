@@ -10,6 +10,7 @@ import Register from "./Home/Authentication/Register/Register";
 import TMChackout from "./Home/Chackout/TMChackout/TMChackout";
 import RequireAuth from "./Home/Authentication/RequireAuth/RequireAuth";
 import Foods from "./Home/Food/Foods/Foods";
+import Review from "./Home/Review/Review";
 
 function App() {
   return (
@@ -31,6 +32,14 @@ function App() {
           element={
             <RequireAuth>
               <TMChackout></TMChackout>
+            </RequireAuth>
+          }
+        ></Route>
+        <Route
+          path="/customerreview"
+          element={
+            <RequireAuth>
+              <Review></Review>
             </RequireAuth>
           }
         ></Route>
