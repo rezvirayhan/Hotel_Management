@@ -11,6 +11,7 @@ import TMChackout from "./Home/Chackout/TMChackout/TMChackout";
 import RequireAuth from "./Home/Authentication/RequireAuth/RequireAuth";
 import Foods from "./Home/Food/Foods/Foods";
 import Review from "./Home/Review/Review";
+import AllReviwe from "./Home/Review/AllReview/AllReviwe";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
         <Route path="/ourFood" element={<Foods></Foods>}></Route>
+        <Route path="/allReviwe" element={<AllReviwe></AllReviwe>}></Route>
         <Route
           path="/chackout"
           element={
