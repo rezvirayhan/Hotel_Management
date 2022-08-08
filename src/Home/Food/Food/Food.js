@@ -13,7 +13,7 @@ const Food = ({ food }) => {
            {descripition}
           </p>
           <b><h3 className=""> Price: ${price}</h3></b>
-          <Link to={`bye`}>
+          <Link to={`/booking/${food._id}`}>
             <button className="btn btn-success">Add To Card</button>
           </Link>
         </div>

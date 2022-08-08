@@ -12,6 +12,7 @@ import RequireAuth from "./Home/Authentication/RequireAuth/RequireAuth";
 import Foods from "./Home/Food/Foods/Foods";
 import Review from "./Home/Review/Review";
 import AllReviwe from "./Home/Review/AllReview/AllReviwe";
+import FoodBooking from "./Home/Booking/FoodBooking/FoodBooking";
 
 function App() {
   return (
@@ -28,7 +29,18 @@ function App() {
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
         <Route path="/ourFood" element={<Foods></Foods>}></Route>
-        <Route path="/allReviwe" element={<AllReviwe></AllReviwe>}></Route>
+        <Route path="/customerReview" element={<AllReviwe></AllReviwe>}></Route>
+
+        <Route
+          path="/booking/:bookingId"
+          element={
+            <RequireAuth>
+              <FoodBooking></FoodBooking>
+            </RequireAuth>
+          }
+        ></Route>
+
+
         <Route
           path="/chackout"
           element={

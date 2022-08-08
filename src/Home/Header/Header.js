@@ -4,7 +4,6 @@ import { Button } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { Link } from "react-router-dom";
 import auth from "../../firebase.init";
@@ -33,22 +32,22 @@ const Header = () => {
             <Nav className="me-auto">
               <Nav.Link href="/ourFood">Our Food</Nav.Link>
               <Nav.Link href="/home#mentors">Mentors</Nav.Link>
-              <NavDropdown title="All-Manu" id="collasible-nav-dropdown">
-                <NavDropdown.Item>
-                <Nav.Link className="text-dark" href="/allReviwe"><b>All Review</b></Nav.Link>
-
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
+              <div class="dropdown">
+                <button
+                  class="btn btn-danger dropdown-toggle ml-3"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Our-Hotel
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <Nav.Link className="text-dark font-weight-bold" as={Link} to="/customerReview">Client-Review</Nav.Link>
+                 
+                </div>
+              </div>
             </Nav>
             <Nav>
               {/* <Nav.Link href="#deets">More deets</Nav.Link> */}
