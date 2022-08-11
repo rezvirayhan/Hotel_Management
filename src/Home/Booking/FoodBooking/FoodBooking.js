@@ -22,6 +22,15 @@ const FoodBooking = () => {
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => {
 
+    fetch("http://localhost:5000/confirmOrder",{
+      method:"POST",
+      headers:{"content-type":"application/json"},
+      body: JSON.stringify(data),
+    })
+    .then((res)=> res.json())
+    .then((result)=> console.log(result))
+    console.log(data);
+
 
     console.log(data)
   };

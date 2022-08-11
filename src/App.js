@@ -13,6 +13,7 @@ import Foods from "./Home/Food/Foods/Foods";
 import Review from "./Home/Review/Review";
 import AllReviwe from "./Home/Review/AllReview/AllReviwe";
 import FoodBooking from "./Home/Booking/FoodBooking/FoodBooking";
+import Order from "./Home/Booking/Order/Order";
 
 function App() {
   return (
@@ -49,6 +50,15 @@ function App() {
             </RequireAuth>
           }
         ></Route>
+        <Route
+          path="/myOrder"
+          element={
+            <RequireAuth>
+              <Order></Order>
+            </RequireAuth>
+          }
+        ></Route>
+
         <Route
           path="/customerreview"
           element={
