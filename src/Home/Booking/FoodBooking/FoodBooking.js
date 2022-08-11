@@ -20,7 +20,11 @@ const FoodBooking = () => {
 
 
   const { register, handleSubmit } = useForm();
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data) => {
+
+
+    console.log(data)
+  };
   return (
     <div>
       <div className="container">
@@ -35,11 +39,16 @@ const FoodBooking = () => {
           <div className="col-lg-5 col-md-6 col-sm-12">
             <h2 className="text-primary mt-3">Thsi Is Product Order Pagess</h2>
             <form
-              className="d-flex flex-column mt-3"
+              className="d-flex flex-column"
               onSubmit={handleSubmit(onSubmit)}
             >
+              <input className="mt-2 bg-secondary text-white p-2" defaultValue={foodservice.name} {...register("Name")} />
+              <input className="mt-2 bg-secondary text-white p-2" defaultValue={foodservice.descripition} {...register("Descripition")} />
+              <input className="mt-2 bg-secondary text-white p-2" defaultValue={foodservice.price} {...register("Price")} />
+              <input className="mt-2 bg-secondary text-white p-2" defaultValue={foodservice.img} {...register("img")} />
+
               <input
-                className="mb-3 "
+                className="mb-3 mt-2"
                 placeholder="Your Name"
                 {...register("firstName", { required: true, maxLength: 20 })}
               />
