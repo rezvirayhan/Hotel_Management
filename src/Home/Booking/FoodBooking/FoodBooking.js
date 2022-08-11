@@ -1,7 +1,13 @@
-import React from "react";
 import { useForm } from "react-hook-form";
+import { useParams } from "react-router-dom";
 
 const FoodBooking = () => {
+  const { foodBooking } = useParams();
+
+
+
+
+
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => console.log(data);
   return (
@@ -9,7 +15,8 @@ const FoodBooking = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-7 col-md-6 col-sm-12">
-            <h2>Thsi Is Product Detiles Pagess</h2>
+            <h2>Please Type Your Information.</h2>
+          
           </div>
           <div className="col-lg-5 col-md-6 col-sm-12">
             <h2>Thsi Is Product Order Pagess</h2>
@@ -17,15 +24,20 @@ const FoodBooking = () => {
               className="d-flex flex-column"
               onSubmit={handleSubmit(onSubmit)}
             >
-
               <input
                 className="mb-3 "
                 placeholder="Your Name"
                 {...register("firstName", { required: true, maxLength: 20 })}
               />
-              <small><b>Do you remember?  Order on that date.  Select the date after 7 days. Thank you</b></small>
-              <input type="date"
-                className="mb-3 p-1"
+              <small>
+                <b>
+                  Do you remember? Order on that date. Select the date after 7
+                  days. Thank you
+                </b>
+              </small>
+              <input
+                type="date"
+                className="mb-3 p-1 mt-1"
                 {...register("date", { required: true, maxLength: 20 })}
               />
               <textarea
@@ -35,315 +47,7 @@ const FoodBooking = () => {
                 placeholder="Your Address"
                 {...register("Address", { required: true })}
               />
-              <input className="mb-3" type="Done
-              .00000000.03333333333333333333333333333+33333333333+
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              " />
+              <input className="mb-3" type="submit" />
             </form>
           </div>
         </div>
