@@ -32,7 +32,7 @@ function App() {
         <Route path="/customerReview" element={<AllReviwe></AllReviwe>}></Route>
 
         <Route
-          path="/booking/:foodBooking"
+          path="/booking/:BookingId"
           element={
             <RequireAuth>
               <FoodBooking></FoodBooking>
