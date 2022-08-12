@@ -11,7 +11,7 @@ const Register = () => {
     useCreateUserWithEmailAndPassword(auth, {sendEmailVerification:true});
 
 
-    const [updateProfile, updating, updateError] = useUpdateProfile(auth);
+    const [updateProfile] = useUpdateProfile(auth);
 
 
 
@@ -27,7 +27,6 @@ const Register = () => {
     await createUserWithEmailAndPassword(email, pass);
     await updateProfile({ displayName: name });
     navigeat("/login");
-
 
     console.log(name, email, pass);
   };
@@ -68,6 +67,7 @@ const Register = () => {
           Login.{" "}
         </Link>
       </p>
+      
       <SocialLogin></SocialLogin>
     </div>
   );

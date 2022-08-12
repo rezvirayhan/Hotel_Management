@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-
+import Review from "../Review";
+import "./AllReview.css";
 const AllReviwe = () => {
   const [review, setReview] = useState([]);
   useEffect(() => {
@@ -9,28 +10,28 @@ const AllReviwe = () => {
   }, []);
   return (
     <div>
-      <h1>This Is All Review Pages</h1>
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-4 col-md-6 col-sm-12">
-            {review?.map((pd) => (
-              // <h1>{pd?.firstName}</h1>
-
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">{pd?.firstName}</h5>
-                  <p class="card-text">
-                   {pd?.comment}
-                  </p>
-                  <button className="btn btn-success"> <span><b>{pd?.Mark}</b></span> Otu Of 10. </button>
-                  <h5>{pd?.selected}</h5>
-                </div>
-              </div>
-            ))}
+      <h1 className="text-danger mt-3 mb-3 p-3 text-center">
+        This Is All Review Pages
+      </h1>
+      <div id="service_container" className="container p-3">
+        {review?.map((pd) => (
+          <div>
+            <h5>{pd?.firstName}</h5>
+            <p>{pd?.comment}</p>
+            <button className="btn btn-success">
+              {" "}
+              <span>
+                <b>{pd?.Mark}</b>
+              </span>{" "}
+              Otu Of 10.{" "}
+            </button>
+            <h5>{pd?.selected}</h5>
           </div>
-        </div>
+        ))}
       </div>
-      
+      <div className="mt-5 bg-info p-3">
+        <Review></Review>
+      </div>
     </div>
   );
 };
