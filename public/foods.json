@@ -1,381 +1,343 @@
 [
     {
         "id": 1,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
+        "name": "Mushroom Burger",
+        "descripition": "LThis scrumptious burger sits under a chilli lamb pattie, roasted bell pepper dip, onions, tomatoes and lettuce.",
         "price":"70",
         "img": "https://i.ibb.co/9nmX5sB/Burger-4.jpg"
     },
     {
         "id": 2,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Perfect Lamb Satay Burger",
+        "descripition": "Succulent lamb burgers with the crunchiness of cashew nuts and the creaminess of peanut butter smothered with a gorgeous satay sauce.",
+        "price":"80",
         "img": "https://i.ibb.co/cv4JJ4V/Burger-2.jpg"
     },
     {
         "id": 3,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Lamb and Tomato Stuffed Burger",
+        "descripition": "A perfectly shaped lamb pattie cooked to perfection. The tomatoes aren't just a topping but the spotlight of this beautiful dish.",
+        "price":"40",
         "img": "https://i.ibb.co/ykSVMY1/Burger-3.jpg"
     },
     {
         "id": 4,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Fish Burger",
+        "descripition": "If a burger for you is all about the meat and protein then you're at the right place.",
+        "price":"50",
         "img": "https://i.ibb.co/VNDKr8n/Burger-1.jpg"
     },
     {
         "id": 5,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Chicken Feta Cheese Burger",
+        "descripition": "Chicken mince marinated with salt, pepper and feta cheese is only the beginning of this ultimate wonder.",
+        "price":"60",
         "img": "https://i.ibb.co/WtFWyHn/Burger-5.jpg"
     },
     {
         "id": 6,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Lentil and Mushroom Burger",
+        "descripition": "For the healthy and calorie conscious folks we've got this tasty burger.",
+        "price":"75",
         "img": "https://i.ibb.co/Wn8qXBM/Burger-6.jpg"
     },
     {
         "id": 7,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
+        "name": " Stuffed Bean Burger",
+        "descripition": "Being a vegetarian is no reason to deny yourself the gluttonous pleasures of an overstuffed bun.",
         "price":"70",
         "img": "https://i.ibb.co/Xt9Cj5q/Burger-7.jpg"
     },
     {
         "id": 8,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": " Lamb Burger ",
+        "descripition": "Lamb it out with this thick and juicy pattie accompanied with a crunchy bitter sweet raddish slaw and chilli aioli.",
+        "price":"55",
         "img": "https://i.ibb.co/jgKgTsf/Burger-8.jpg"
     },
     {
         "id": 9,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Cheese Pizza",
+        "descripition": "It should be no shocker that a classic is the statistical favorite. Cheese pizza is one of the most popular choices.",
+        "price":"65",
         "img": "https://i.ibb.co/XLBpsr4/pizza-1.jpg"
     },
     {
         "id": 10,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Veggie Pizza",
+        "descripition": "When you want to jazz up your cheese pizza with color and texture, veggies are the perfect topping.",
+        "price":"45",
         "img": "https://i.ibb.co/yVSsgzN/pizza-2.jpg"
     },
     {
         "id": 11,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Pepperoni Pizza",
+        "descripition": "There is a reason this is one of the most popular types of pizza.",
+        "price":"85",
         "img": "https://i.ibb.co/5K6syy0/pizza-3.jpg"
     },
     {
         "id": 12,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Meat Pizza",
+        "descripition": "If pepperoni just isn’t enough, and you’re looking for a pie with a bit more heft, a meat pizza is a perfect and popular choice.",
+        "price":"55",
         "img": "https://i.ibb.co/3T0rtC6/pizza-4.jpg"
     },
     {
         "id": 13,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": " Margherita Pizza",
+        "descripition": "Deceptively simple, the Margherita pizza is made with basil, fresh mozzarella, and tomatoes.",
+        "price":"75",
         "img": "https://i.ibb.co/C53BQCS/pizza-5.jpg"
     },
     {
         "id": 14,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "BBQ Chicken Pizza",
+        "descripition": "If you love BBQ chicken and you love pizza, why not put them together?",
+        "price":"55",
         "img": "https://i.ibb.co/jDnL30v/pizza-6.jpg"
     },
     {
         "id": 15,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Hawaiian Pizza",
+        "descripition": "Pineapple might not be the first thing that comes to mind when you think pizza.",
+        "price":"25",
         "img": "https://i.ibb.co/QKQW9Jz/pizza-7.jpg"
     },
     {
         "id": 16,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Buffalo Pizza",
+        "descripition": "Who says your pizza has to be strictly tomato-sauce based? Branch out with some buffalo sauce on your pie.",
+        "price":"45",
         "img": "https://i.ibb.co/zfq7D0v/pizza-8.jpg"
     },
   
     {
         "id": 17,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
+        "name": " Spaghetti",
+        "descripition": "Perhaps one of the most popular pasta types in the world, spaghetti consists of long, thin noodles which can be paired with a wide variety of sauces.",
         "price":"70",
         "img": "https://i.ibb.co/k2VhFPC/Pasta-1.jpg"
     },
     {
         "id": 18,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Penne",
+        "descripition": "Another popular shape, penne has a round, tube like structure, with diagonal cuts at either end.",
+        "price":"75",
         "img": "https://i.ibb.co/y67rnhm/Pasta-2.jpg"
     },
     {
         "id": 19,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Lasagne",
+        "descripition": "Contrary to popular belief, lasagne is the name of the thin sheets of pasta that make up a dish, rather than the dish itself.",
+        "price":"65",
         "img": "https://i.ibb.co/rK9jRkg/Pasta-3.jpg"
     },
     {
         "id": 20,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Ravioli",
+        "descripition": "Ravioli are pillow shaped squares of dough that can pretty much do anything.",
+        "price":"80",
         "img": "https://i.ibb.co/8rdDNSm/Pasta-4.jpg"
     },
     {
         "id": 21,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Linguine",
+        "descripition": "Very similar to the likes of spaghetti, linguine is a little flatter and is considered to be more luxurious.",
+        "price":"55",
         "img": "https://i.ibb.co/7SptFWh/Pasta-5.jpg"
     },
     {
         "id": 22,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Rigatoni",
+        "descripition": "Much like penne, rigatoni are tubes with small ridges on the outside, but they are slightly wider and cut into a square rather than diagonally.",
+        "price":"65",
         "img": "https://i.ibb.co/tPm2kzz/Pasta-6.jpg"
     },
     {
         "id": 23,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Farfalle",
+        "descripition": "Known as ‘bow-tie’ pasta and translating to ‘butterfly’ from Italian, this pasta is shaped like exactly that.",
+        "price":"45",
         "img": "https://i.ibb.co/qgH1BPD/Pasta-7.jpg"
     },
     {
         "id": 24,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Fusilli",
+        "descripition": "This pasta has a spiralled, corkscrew like shape that pair perfectly with rich meat sauces or chunky vegetables as the chunks get caught in the crevices of the twirls giving the dish a lovely texture.",
+        "price":"65",
         "img": "https://i.ibb.co/6sJcR2t/Pasta-8.jpg"
     },
     
    
     {
         "id": 25,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Arborio Rice",
+        "descripition": "Arborio rice is a medium grain rice that is wider in size and has a characteristic white dot at the center of the grain.",
+        "price":"90",
         "img": "https://i.ibb.co/Bt2mMqT/rice-1.jpg"
     },
     {
         "id": 26,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Basmati Rice",
+        "descripition": "When cooked, basmati rice grains are long, dry, and separate.",
+        "price":"95",
         "img": "https://i.ibb.co/n7m6Qzg/rice-2.jpg"
     },
     {
         "id": 27,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Black Rice",
+        "descripition": "Black rice, also known as forbidden rice, gets its color from anthocyanins, the same antioxidant that's found in blueberries and blackberries.",
+        "price":"65",
         "img": "https://i.ibb.co/CMtDzk6/rice-3.jpg"
     },
     {
         "id": 28,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
+        "name": "Bomba Rice",
+        "descripition": "Bomba rice is a medium grain rice that is cultivated in the Valencia region of Spain.",
         "price":"70",
         "img": "https://i.ibb.co/hHxH742/rice-4.jpg"
     },
     {
         "id": 29,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Brown Rice",
+        "descripition": "Brown rice is a whole grain that has its bran and germ layers still intact, which gives the rice its characteristic tan color.",
+        "price":"80",
         "img": "https://i.ibb.co/NCjSXh8/rice-5.jpg"
     },
     {
         "id": 30,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Jasmine Rice",
+        "descripition": "Cultivated in Thailand, jasmine rice will bring an exotic flair and flavorful accent to any dish.",
+        "price":"55",
         "img": "https://i.ibb.co/0hdqMHk/rice-6.jpg"
     },
     {
         "id": 31,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Grain White Rice",
+        "descripition": "Long grain white rice is most common rice used in traditional American recipes, and it's also popular in Asian and Mexican cuisine.",
+        "price":"50",
         "img": "https://i.ibb.co/2FDcbK2/rice-7.jpg"
     },
     {
         "id": 32,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Parboiled Rice",
+        "descripition": "Parboiled rice is rice that has been partially boiled in its inedible outer husk.",
+        "price":"90",
         "img": "https://i.ibb.co/1JPjfxn/rice-8.jpg"
     },
   
     {
         "id": 33,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Old Fashioned",
+        "descripition": "There may be no better test of a bartender's mettle than ordering an Old Fashioned.",
+        "price":"76",
         "img": "https://i.ibb.co/vhzb323/drinks-1.jpg"
     },
     {
         "id": 34,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Margarita",
+        "descripition": "Cloyingly sweet margarita mixes have given this drink a bad name. A well-made version is a fresh mix of lime juice and tequila.",
+        "price":"45",
         "img": "https://i.ibb.co/pQ50swG/drinks-2.jpg"
     },
     {
         "id": 35,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Cosmopolitan",
+        "descripition": "The cosmo became almost ubiquitous in the '90s thanks to the TV show.",
+        "price":"40",
         "img": "https://i.ibb.co/d2WPDRq/drinks-3.jpg"
     },
     {
         "id": 36,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Negroni",
+        "descripition": "A favorite of bartenders all over the world, the Negroni is a simple three-ingredient cocktail.",
+        "price":"50",
         "img": "https://i.ibb.co/chb2xgG/drinks-4.jpg"
     },
     {
         "id": 37,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Moscow Mule",
+        "descripition": "Popular for good reason, the Moscow Mule is one of the most refreshing things to sip on a hot summer day.",
+        "price":"60",
         "img": "https://i.ibb.co/BrGKPM1/drinks-5.jpg"
     },
     {
         "id": 38,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
+        "name": "Martini",
+        "descripition": "LJames Bond was wrong—whether you drink it with gin or vodka, stirred is the way to go when ordering a martini.",
         "price":"70",
         "img": "https://i.ibb.co/5LrJdXq/drinks-6.jpg"
     },
     {
         "id": 39,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Mojito",
+        "descripition": "Originating in Cuba, this refreshing rum-based sip is filled with mint and lime—a perfect combination for sipping by the pool or beach.",
+        "price":"50",
         "img": "https://i.ibb.co/SwvfzBg/drinks-7.jpg"
     },
     {
         "id": 40,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "Whiskey Sour",
+        "descripition": "Perhaps the most refreshing whiskey cocktail, this is an old reliable favorite.",
+        "price":"40",
         "img": "https://i.ibb.co/gjMgZKM/drinks-8.jpg"
     },
    
     {
         "id": 41,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "AFFOGATO",
+        "descripition": "Espresso poured on a vanilla ice cream. Served in a cappuccino cup.",
+        "price":"60",
         "img": "https://i.ibb.co/XjXVhNP/coffee-1.jpg"
     },
     {
         "id": 42,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "AMERICANO",
+        "descripition": "Espresso with added hot water (100–150 ml). Often served in a cappuccino cup. (The espresso is added into the hot water rather than all the water being flowed through the coffee that would lead to over extraction.)",
+        "price":"40",
         "img": "https://i.ibb.co/R4VVDhT/coffee-2.jpg"
     },
     {
         "id": 43,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
+        "name": "CAFFÈ LATTE",
+        "descripition": "A tall, mild 'milk coffee' (about 150-300 ml). An espresso with steamed milk and only a little milk foam poured over it. Serve in a latte glass or a coffee cup. Flavoured syrup can be added. ",
         "price":"70",
         "img": "https://i.ibb.co/MZtf8d8/coffee-3.jpg"
     },
     {
         "id": 44,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "CAFFÈ MOCHA",
+        "descripition": "A caffè latte with chocolate and whipped cream, made by pouring about 2 cl of chocolate sauce into the glass, followed by an espresso shot and steamed milk. ",
+        "price":"75",
         "img": "https://i.ibb.co/RvdRYwG/coffee-4.jpg"
     },
     {
         "id": 45,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "CAFÈ AU LAIT",
+        "descripition": "French morning coffee. Made by mixing dark roasted filter coffee (often prepared with French Press) and warm milk. Served in a bowl or a large coffee cup.",
+        "price":"65",
         "img": "https://i.ibb.co/xJgQVgj/coffee-5.jpg"
     },
     {
         "id": 46,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
-        "price":"70",
+        "name": "CAPPUCCINO",
+        "descripition": "A coffee drink consisting of espresso and a milk foam mixture (drink size about 160–240 ml). Served in a cappuccino cup.",
+        "price":"75",
         "img": "https://i.ibb.co/9wV68pk/coffee-6.jpg"
     },
     {
         "id": 47,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
+        "name": "COLD BREW COFFEE",
+        "descripition": "Cold Brew Coffee is a smooth, cold beverage prepared by brewing freshly ground coffee in cold water. In the Cold Brew process, time makes up for heat.",
         "price":"70",
         "img": "https://i.ibb.co/bsHZxNX/coffee-7.jpg"
     },
     {
         "id": 48,
-        "name": "Product Name",
-        "descripition": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi deserunt quis quam.",
+        "name": "DOUBLE ESPRESSO",
+        "descripition": "Double portion of espresso in a cappuccino/espresso cup.",
         "price":"70",
         "img": "https://i.ibb.co/LnvJnsP/coffee-8.jpg"
-    },
-   
-
-    {
-        "id": 49,
-        "producrname": "Our Burger",
-        "productdescripition": ""
-        
-    },
-    {
-        "id": 50,
-        "producrname": "Our Pizza",
-        "productdescripition": ""
-        
-    },
-    {
-        "id": 51,
-        "producrname": "Our Pastha",
-        "productdescripition": ""
-        
-    },
-    {
-        "id": 52,
-        "producrname": "Our Rice",
-        "productdescripition": ""
-        
-    },
-    {
-        "id": 53,
-        "producrname": "Our Drinks",
-        "productdescripition": ""
-        
-    },
-    {
-        "id": 54,
-        "producrname": "Our Coffee",
-        "productdescripition": ""
-        
     }
 ]
